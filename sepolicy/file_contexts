@@ -23,6 +23,7 @@
 
 # SEC
 /sys/devices/virtual/sec/sec_key/hall_irq_ctrl          u:object_r:sysfs_sec:s0
+/sys/devices/virtual/sec/tsp(/.*)?                      u:object_r:sysfs_sec:s0
 
 # Sensors
 /dev/batch_io                                           u:object_r:sensors_device:s0

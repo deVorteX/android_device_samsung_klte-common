@@ -1,0 +1,3 @@
+allow init system_file:dir relabelfrom;
+allow init system_file:file relabelfrom;
+
